@@ -2,7 +2,7 @@ import React from "react";
 import Meaning from "./meaning"
 
 export default function Results(props){
-    if(props.results.length){
+    if(props.results){
 return(
         <div className="results">
 <h2>{props.results.word}</h2>
